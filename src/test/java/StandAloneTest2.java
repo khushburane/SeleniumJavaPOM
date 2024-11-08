@@ -48,7 +48,7 @@ public class StandAloneTest2 extends BaseTest {
 		String msg = confirmationpage.verifyConfirmMessage();
 		Assert.assertEquals(msg, "THANKYOU FOR THE ORDER.");
 		System.out.println("hello");
-		System.out.println("Updated after git push");
+		
 		
 	}
 
@@ -60,6 +60,7 @@ public class StandAloneTest2 extends BaseTest {
 
 		ProductCatalogue product = landingpage.loginApplication("AnshuAnu@gmail.com", "AnshuAu@123");
 		Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMessage());
+		System.out.println("comment added in git repo");
 	
 
 	}
