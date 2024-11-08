@@ -48,6 +48,7 @@ public class StandAloneTest2 extends BaseTest {
 		String msg = confirmationpage.verifyConfirmMessage();
 		Assert.assertEquals(msg, "THANKYOU FOR THE ORDER.");
 		System.out.println("hello");
+		System.out.println("Updated after git push");
 		
 	}
 
