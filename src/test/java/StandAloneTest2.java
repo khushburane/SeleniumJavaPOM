@@ -60,7 +60,7 @@ public class StandAloneTest2 extends BaseTest {
 
 		ProductCatalogue product = landingpage.loginApplication("AnshuAnu@gmail.com", "AnshuAu@123");
 		Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMessage());
-		System.out.println("comment added in git repo");
+		
 	
 
 	}
@@ -70,6 +70,7 @@ public class StandAloneTest2 extends BaseTest {
 		ProductCatalogue product = landingpage.loginApplication("AnshuAnu@gmail.com", "AnshuAu@123");
 		OrderPage orderpage = product.goToOrdersPage();
 		Assert.assertTrue(orderpage.VerifyOrderDisplay(productName));
+		System.out.println("on branch WorkingBranch");
 	}
 	@DataProvider
 	public Object[][] getData(){
